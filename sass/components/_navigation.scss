@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  align-items: center;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    width: 715px;
+  }
+
+  .nav__list {
+    list-style-type: none;
+  }
+
+  .nav__link {
+    text-decoration: none;
+    color: $color-white;
+    font-family: Athelas;
+    font-size: 20px;
+  }
+}

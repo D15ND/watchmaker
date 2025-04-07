@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.upper__container {
+  background: url(../../assets/fon_shapka.png);
+}
+
+@font-face {
+  font-family: Athelas;
+  src: url(../../fonts/Athelas-Bold.ttf), url(../../fonts/Athelas-BoldItalic.ttf), url(../../fonts/Athelas-Italic.ttf), url(../../fonts/Athelas-Regular.ttf);
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  width: 715px;
+}
+.navigation .nav__list {
+  list-style-type: none;
+}
+.navigation .nav__link {
+  text-decoration: none;
+  color: #fff;
+  font-family: Athelas;
+  font-size: 20px;
+}
+
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+
+.welcom {
+  padding-bottom: 90px;
+}
+.welcom .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcom__info {
+  padding-top: 165px;
+}
+
+.welcom__title {
+  color: #fff;
+  font-size: 79px;
+  font-family: Athelas;
+  margin-bottom: 50px;
+}
+
+.welcom__video {
+  display: flex;
+  justify-content: end;
+  gap: 17px;
+}
+.welcom__video .video__img {
+  width: 87px;
+  height: 87px;
+}
+.welcom__video .video__description {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: Athelas;
+  font-size: 18px;
+  width: 160px;
+}/*# sourceMappingURL=main.css.map */
