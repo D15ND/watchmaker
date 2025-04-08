@@ -1,5 +1,11 @@
 .company {
   background-color: $color-black;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
 }
 
 .company__info {
@@ -23,7 +29,16 @@
 }
 
 .clock__fone {
+  display: none;
   width: 440px;
   height: 560px;
   background-color: $color-dark;
+}
+
+.clock__uper {
+  height: 415px;
+}
+
+.clock__down {
+  height: 300px;
 }
