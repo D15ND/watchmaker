@@ -1,0 +1,29 @@
+.company {
+  background-color: $color-black;
+}
+
+.company__info {
+  width: 460px;
+}
+
+.company__title {
+  font-family: Athelas;
+  font-size: 48px;
+  line-height: 50px;
+  margin-bottom: 64px;
+
+  .bold {
+    font-size: 85px;
+  }
+}
+
+.company__desciption {
+  font-family: Athelas;
+  font-size: 22px;
+}
+
+.clock__fone {
+  width: 440px;
+  height: 560px;
+  background-color: $color-dark;
+}

@@ -1,0 +1,34 @@
+.cooperation {
+  background-color: $color-gray;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.cooperation__info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .cooperation__title {
+    font-family: Athelas;
+    font-size: 48px;
+    color: $color-black;
+
+    .cooperation__plus {
+      font-size: 85px;
+    }
+  }
+
+  .cooperation__description {
+    font-family: Athelas;
+    font-size: 30px;
+    color: $color-black;
+  }
+}
+
+.cooperating__img {
+  margin: 55px 0 100px 0;
+}

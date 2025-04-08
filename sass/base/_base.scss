@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  color: white;
+}
+
 .wrapper {
   max-width: 1240px;
   margin: 0 auto;
@@ -11,4 +15,5 @@
 
 .upper__container {
   background: url(../../assets/fon_shapka.png);
+  background-repeat: no-repeat;
 }
