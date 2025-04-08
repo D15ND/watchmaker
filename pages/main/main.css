@@ -190,4 +190,35 @@ body {
 .production__cards .production__card .card__info .card__description {
   font-family: Athelas;
   font-size: 22px;
+}
+
+.invite {
+  background-color: #f1f1f1;
+}
+.invite .wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 58px;
+}
+
+.invite__img {
+  margin: 66px 0 114px 0;
+}
+
+.invite__info {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 171px;
+}
+.invite__info .invite__title {
+  color: black;
+  font-size: 64px;
+  font-family: Athelas;
+}
+.invite__info .invite__description {
+  color: black;
+  font-family: Athelas;
+  font-size: 30px;
+  width: 397px;
 }/*# sourceMappingURL=main.css.map */
