@@ -1,0 +1,41 @@
+.news {
+  background-color: $color-gray-dark;
+}
+
+.upper__container {
+  background: none;
+  background-color: $color-gray-dark;
+}
+
+.header {
+  .nav__link {
+    color: $color-black;
+  }
+}
+
+.news__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  row-gap: 50px;
+  margin-bottom: 100px;
+}
+
+.news__card {
+  width: 400px;
+}
+
+.news__title {
+  font-family: Athelas;
+  color: $color-black;
+  font-size: 85px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.news__description {
+  font-family: Athelas;
+  font-size: 24px;
+  color: $color-black;
+}

@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+}
+
+.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.upper__container {
+  background: url(../../assets/fon_shapka.png);
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: Athelas;
+  src: url(../../fonts/Athelas-Bold.ttf), url(../../fonts/Athelas-BoldItalic.ttf), url(../../fonts/Athelas-Italic.ttf), url(../../fonts/Athelas-Regular.ttf);
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  width: 715px;
+}
+.navigation .nav__list {
+  list-style-type: none;
+}
+.navigation .nav__link {
+  text-decoration: none;
+  color: #fff;
+  font-family: Athelas;
+  font-size: 20px;
+}
+
+.footer__navigation {
+  display: flex;
+}
+.footer__navigation ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+  line-height: 45px;
+}
+
+.btn {
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: Athelas;
+  font-size: 14px;
+  width: 282px;
+  height: 54px;
+  text-decoration: none;
+}
+
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+
+.news {
+  background-color: #E3E3E3;
+}
+
+.upper__container {
+  background: none;
+  background-color: #E3E3E3;
+}
+
+.header .nav__link {
+  color: black;
+}
+
+.news__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  row-gap: 50px;
+  margin-bottom: 100px;
+}
+
+.news__card {
+  width: 400px;
+}
+
+.news__title {
+  font-family: Athelas;
+  color: black;
+  font-size: 85px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.news__description {
+  font-family: Athelas;
+  font-size: 24px;
+  color: black;
+}
+
+footer {
+  background-color: black;
+}
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+footer .logo__img {
+  margin-right: 110px;
+}
+
+.footer__info {
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  padding-top: 240px;
+}/*# sourceMappingURL=news.css.map */
