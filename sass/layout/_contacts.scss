@@ -1,0 +1,50 @@
+.contacts {
+  background-color: $color-black;
+  background-image: url(../../assets/contacts.png);
+  width: 100%;
+
+  .wrapper {
+    padding: 100px 0 90px 0;
+  }
+
+  .btn {
+    margin-left: 63px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 16px;
+    margin-top: 40px;
+  }
+}
+
+.contacts__list {
+  width: 400px;
+  border: 1px solid $color-white;
+  padding-bottom: 50px;
+
+
+  .contacts__title {
+    font-size: 48px;
+    font-family: Athelas;
+    margin: 20px 63px;
+  }
+
+  .contacts__desc {
+    font-size: 22px;
+    font-family: Athelas;
+  }
+
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: $color-white;
+  display: flex;
+  column-gap: 10px;
+}
+
+.contacts__info {
+  margin-left: 63px;
+  width: 296px;
+  margin-bottom: 15px;
+}

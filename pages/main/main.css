@@ -41,6 +41,16 @@ body {
   font-size: 20px;
 }
 
+.btn {
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: Athelas;
+  font-size: 14px;
+  width: 282px;
+  height: 54px;
+  text-decoration: none;
+}
+
 .header .wrapper {
   display: flex;
   justify-content: space-between;
@@ -235,4 +245,50 @@ body {
   font-family: Athelas;
   font-size: 30px;
   width: 397px;
+}
+
+.contacts {
+  background-color: black;
+  background-image: url(../../assets/contacts.png);
+  width: 100%;
+}
+.contacts .wrapper {
+  padding: 100px 0 90px 0;
+}
+.contacts .btn {
+  margin-left: 63px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 16px;
+  margin-top: 40px;
+}
+
+.contacts__list {
+  width: 400px;
+  border: 1px solid #fff;
+  padding-bottom: 50px;
+}
+.contacts__list .contacts__title {
+  font-size: 48px;
+  font-family: Athelas;
+  margin: 20px 63px;
+}
+.contacts__list .contacts__desc {
+  font-size: 22px;
+  font-family: Athelas;
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.contacts__info {
+  margin-left: 63px;
+  width: 296px;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=main.css.map */
