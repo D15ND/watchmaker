@@ -19,3 +19,16 @@
     font-size: 20px;
   }
 }
+
+.footer__navigation {
+  display: flex;
+
+  ul {
+    // all: revert;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    line-height: 45px;
+  }
+}

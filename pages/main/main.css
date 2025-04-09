@@ -41,6 +41,17 @@ body {
   font-size: 20px;
 }
 
+.footer__navigation {
+  display: flex;
+}
+.footer__navigation ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+  line-height: 45px;
+}
+
 .btn {
   color: #fff;
   border: 1px solid #fff;
@@ -291,4 +302,28 @@ body {
   margin-left: 63px;
   width: 296px;
   margin-bottom: 15px;
+}
+
+footer {
+  background-color: black;
+}
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+footer .logo__img {
+  margin-right: 110px;
+}
+
+.footer__info {
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  padding-top: 240px;
 }/*# sourceMappingURL=main.css.map */
